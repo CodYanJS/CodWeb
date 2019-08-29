@@ -1,0 +1,64 @@
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(120deg,#3498db,#8e44ad);
+    background-repeat: repeat;
+}
+.bvn{
+    color:rgb(0, 238, 206);
+    margin-left: 35.5%;
+    font-family: monospace;
+    margin-top: 2.5%;
+}
+button{
+	background-color: lightgreen;
+    margin-left: 10%;
+    margin-top: -10%;
+    margin-bottom: 15%;
+	font-size: 2em;
+	font-family: monospace;
+	padding: 1px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 6px 6px 20px 4px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	outline: none;
+	transition: 0.2s;
+}
+button:hover{
+	transform: scale(1.1);
+	box-shadow: 6px 6px 30px 4px rgba(0, 0, 0, 0.18);
+}
+button:active{
+	transform: scale(0.98);
+	box-shadow: 6px 6px 18px 2px rgba(0, 0, 0, 0.23);
+}
+.news1{
+    margin-top: -100%;
+}
+.news2{
+    margin-left: 17%;
+}
+.news3{
+    margin-top: 10%;
+}
+.news4{
+    margin-left: 17%;
+}
+.newstxt1{
+    margin-top: -32.2%;
+    font-family: monospace;
+}
+.newstxt2{
+    margin-top: -2.25%;
+    margin-left: 58.5%;
+    font-family: monospace;
+}
+.newstxt3{
+    margin-top: 31.2%;
+    font-family: monospace;
+}
+.newstxt4{
+    margin-left: 58.5%;
+    margin-top: -2.25%;
+    font-family: monospace;
+}
